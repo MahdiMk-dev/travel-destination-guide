@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+nav{
+    display: block;
+    background-color: rgb(142, 60, 60);
+    padding: 20px;
+
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+
+}
+nav ul li{
+padding: 15px;
+}
+nav ul li a{
+    text-decoration: none;
+
+}
+.hero{
+    background-color: green;
+    width: 100%;
+}
+.hero-pics{
+    width: 100%;
+
+}
+.cta{
+    display: flex;
+    justify-content: center;
+}
