@@ -7,7 +7,6 @@
 nav{
     display: block;
     background-color: rgb(142, 60, 60);
-    padding: 20px;
 
 }
 
@@ -24,7 +23,7 @@ nav ul li a{
 
 }
 .hero{
-    background-color: green;
+    
     width: 100%;
 }
 .hero-pics{
@@ -34,4 +33,25 @@ nav ul li a{
 .cta{
     display: flex;
     justify-content: center;
+}
+nav ul li:hover{
+    background-color: green;
+}
+.countries{
+    display: flex;
+    justify-content: space-around;
+}
+.cities{
+    padding: 20px;
+    display: flex;
+    width: 200px;
+    height: 200px;
+}
+.country-line{
+    width: 100%;
+    background-color: blue;
+    display: flex;
+    color: white;
+    justify-content: center;
+    font-size: 30px;
 }
