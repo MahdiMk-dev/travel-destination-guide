@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+nav{
+    display: block;
+    background-color: rgb(142, 60, 60);
+
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+
+}
+nav ul li{
+padding: 15px;
+}
+nav ul li a{
+    text-decoration: none;
+
+}
+a{
+    color: black;
+}
+
+.banner{
+    display: block;
+    width: 100%;
+    height: 400px;
+}
+.sub-intro{
+    width: 50%;
+    background-color: rgb(59, 198, 198);
+
+
+}
+nav ul li:hover{
+    background-color: beige;
+}
+.sub-intro p{
+    text-align: center;
+    text-wrap: pretty ;
+    font-size: large;
+    margin-left: 10px;
+}
+.sub-intro h2{
+    padding: 10px;
+    text-align: center;
+}
+.sub-intro h3{
+    padding: 20px;
+}
+.intro{
+    display: flex;
+}
+.sub-intro-2{
+width: 20%;
+border: solid black 50 px;
+background-color: aqua;
+
+}
+.sub-intro-2 p{
+    padding: 10px;
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+}
+.sub-intro-2 ul li{
+    font-size: larger;
+    padding: 10px;
+justify-content: center;
+}
+.sub-intro-2 h3{
+    margin-left: 30px;
+
+}
+.sub-intro-2 ul{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-left: 100px;
+    justify-content: center;
+}
+.last{
+    width: 29%;
+    background-color: rgb(188, 252, 252);
+}
