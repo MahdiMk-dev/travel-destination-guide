@@ -33,7 +33,6 @@ a{
 }
 .sub-intro{
     width: 50%;
-    background-color: rgb(59, 198, 198);
 
 
 }
@@ -59,7 +58,6 @@ nav ul li:hover{
 .sub-intro-2{
 width: 20%;
 border: solid black 50 px;
-background-color: aqua;
 
 }
 .sub-intro-2 p{
@@ -86,5 +84,4 @@ justify-content: center;
 }
 .last{
     width: 29%;
-    background-color: rgb(188, 252, 252);
 }
