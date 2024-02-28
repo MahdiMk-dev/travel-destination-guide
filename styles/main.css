@@ -35,23 +35,32 @@ nav ul li a{
     justify-content: center;
 }
 nav ul li:hover{
-    background-color: green;
+    background-color: beige;
 }
+
 .countries{
     display: flex;
     justify-content: space-around;
 }
 .cities{
     padding: 20px;
-    display: flex;
+    display: block;
     width: 200px;
     height: 200px;
 }
 .country-line{
     width: 100%;
-    background-color: blue;
+    background-color: brown;
     display: flex;
     color: white;
     justify-content: center;
     font-size: 30px;
+}
+a{
+    color: black;
+}
+figure{
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
 }
